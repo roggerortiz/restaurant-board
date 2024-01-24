@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  color-scheme: light dark;
+} */
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+.light-scrollbars::-webkit-scrollbar,
+.light-scrollbars::-webkit-scrollbar-thumb,
+.light-scrollbars::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+.light-scrollbars::-webkit-scrollbar {
+  height: 0;
+  width: 0;
+}
